@@ -1,0 +1,266 @@
+/* basic siting */ 
+:root{
+    --main-text-color:#757575;
+    --secondary-text-color:#212121;
+    --accent:#2196F3;
+    --white:#ffffff;
+    --back:#2F303A;
+    --section:#F5F4FA;
+    --button:°#188CE8;
+    --grey-color-footer:rgba(255, 255, 255, 0.6);
+    --accent-button:#188CE8;
+    --black-studio:#000000;
+
+    
+
+}
+ul{
+    list-style: none;
+}
+ .link{
+    text-decoration: none;
+    color:inherit;
+    font-style: normal;
+    color:var(--grey-color-footer);
+   
+}
+.position-menu{
+    width: 500;
+    text-decoration: none;
+    color:inherit;
+    font-style: normal;
+    color:var(--grey-color-footer);
+    color:var(--secondary-text-color);
+
+}
+
+
+.link:hover,
+.link:focus{
+    color:var(--accent);
+
+}
+
+
+.site-nav.link:hover,
+.site-nav.link:focus{
+    color:var(--back);
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0,02em;
+    color:var(--accent);
+
+}
+  .body {
+        background-color: var(--white);
+        color: var(--main-text-color);
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+      }
+
+ 
+.logo{
+     font-family:"Raleway", sans-serif;
+     width: 700;
+     font-size: 26px ;
+     line-height:calc(31/26); ;
+     color: var(--accent);
+}
+
+
+.menu {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+}
+
+.menu-link{
+ font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color:var(--secondary-text-color);
+}
+
+.phone{
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.list{
+    list-style: none;
+    color:var(--back);
+    letter-spacing: 0,03em;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.hero{
+
+    font-family:'Roboto', sans-serif ;
+    background-color:var(--back) ;
+    color: var(--white);
+    }
+
+/*button*/
+.btn{ 
+    cursor: pointer;
+    font:inherit;
+    background-color:transparent;
+    border:none
+}
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0,03em;
+    background-color: #2196F3;
+    min-width: 216px;
+    padding: 10px 32px;
+    color:var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+   
+
+} 
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--accent-button);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44) ;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--white);
+}
+.hero-section{
+    background-color:var(--back) ;
+}
+/*section bg*/
+.bg{
+    background-color: var(--section);
+    color:var(--back);
+    font:inherit;
+    letter-spacing: 0,03em;
+
+}
+
+.footer{
+    background-color: var(--back);
+
+}
+
+.address{
+    color:var(--grey-color-footer);
+    font-size: 14px;
+    line-height: calc(24/14);
+
+}
+
+.map-address{
+    color:var(--white);
+
+}
+/* section team!!!!! */
+.section-team{
+    background-color:var(--section) ;
+
+}
+.team{
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19/16);
+letter-spacing: 0.03em;
+color:var(--secondary-text-color)
+}
+.team-of{
+font-size: 16px;
+line-height: calc(19/16);
+letter-spacing: 0.03em;
+
+    color:var(--main-text-color)
+}
+.team-logo{
+font-size: 36px;
+line-height: calc(42/36);
+letter-spacing: 0.03em;
+color:var(--secondary-text-color)
+}
+.bussy-section{
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color:var(--main-text-color);
+}
+
+.about-section{ 
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+}
+ 
+/*  PORTFOLIO BUTTON   */
+
+.button{
+    font-family: "Roboto",sans-serif;
+   font-weight: 500;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0,03em;
+    background-color:var(--section);
+    color:var(--secondary-text-color);
+    min-width: 125px;
+    padding: 6px 22px;
+    
+    
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+.button:hover,
+.button:focus{
+    color:var(--back);
+    color:var(--white);
+    background-color: var(--accent);
+
+}
+/*SECTION MENU*/
+.menu-about{
+font-weight: 400;
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.03em;
+color:var(--main-text-color)
+}
+.team-menu{
+font-size: 18px;
+line-height: calc(36/18);
+letter-spacing: 0.06em;
+color:var(--secondary-text-color)
+
+}
+
+
